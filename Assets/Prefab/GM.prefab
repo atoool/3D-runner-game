@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4693801180952810061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4693801180952810063}
+  - component: {fileID: 4693801180952810060}
+  m_Layer: 0
+  m_Name: GM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4693801180952810063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4693801180952810061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 59.296276, y: -55.955933, z: 80.614075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4693801180952810060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4693801180952810061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a069fb254df43ac9615b569d02e010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sea: {fileID: 338604965493359132, guid: 01557933d524c41d2812d748ccf236ab, type: 3}
+  playerTransform: {fileID: 0}
+  Areas:
+  - {fileID: 895696122094616501, guid: 9aa42b2f0cca64b34b463c27af4e484b, type: 3}
+  - {fileID: 4092927826160664268, guid: 260f3cfe1feaf4fd2b58b81a485dd932, type: 3}
+  - {fileID: 354109283291430302, guid: 046c049b6e7cc40d3a41f4e1c2078fd4, type: 3}
+  - {fileID: 153377755581718943, guid: bd83529f6863f41958b68926ba2da09e, type: 3}
+  - {fileID: 895696122094616501, guid: 563671a0dcb6e4bbcb4bf81bfa19996a, type: 3}
+  - {fileID: 895696122094616501, guid: 824d6ca80bdc240228a3f559a34e2504, type: 3}
+  StartArea: {fileID: 8261227973365460666, guid: b676ac06e0ed04edaa4dce482b367c91,
+    type: 3}
+  scoreText: {fileID: 0}
+  coinText: {fileID: 0}
+  modifierText: {fileID: 0}
+  zDistance: 30
+  deathMenuAnim: {fileID: 0}
+  deathScoreText: {fileID: 0}
+  deathCoinText: {fileID: 0}
